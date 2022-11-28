@@ -1,4 +1,4 @@
-import { UserInputError } from "apollo-server";
+import { UserInputError } from "apollo-server-express";
 import { loginInput, RegisterInput, UserData } from "../../interfaces/user";
 import { User } from "../../models";
 import { IUserSchema } from "../../models/User";
